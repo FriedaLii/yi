@@ -1,0 +1,18 @@
+S1
+打开英文模板会有表达式错误，关于如何转换AE中英文：
+    在安装目录下 Adobe After Effects CC 2018\Support Files\painter.ini
+    以.txt打开，在PersonGUID和[AMT]行中插入以下字符：
+                    PersonGUID=......@AdobeID
+
+                    forceLanguage=1
+                    Language==en_US
+                    ;en_US
+                    ;zh_CN
+
+
+                    [AMT]......
+
+    完成英文转换；再变为中文只需删去即可。
+
+Source:
+https://baijiahao.baidu.com/s?id=1611131163417997980&wfr=spider&for=pc
