@@ -1,0 +1,125 @@
+/* body 背景色*/
+body {
+    font-family: 微软雅黑;
+    background-color: whitesmoke;
+}
+
+/*顶端导航栏*/
+.top_nav {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(61, 61, 61, 0.1);
+    overflow: hidden;
+    display: flex;
+}
+
+.nav_bar {
+    width: 1000px;
+    margin: auto auto;
+    padding: 8px 14px 5px 14px;
+}
+
+a.nav_img{
+    padding: 0 25px;
+    vertical-align: middle;    
+    align-items: center;
+}
+
+.nav_bar ul{ list-style-type: none; }
+
+.nav_bar li {
+    font-size: 12pt;
+    display: inline-block;  
+    text-align: center; 
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+.nav_img, .left_nav {float: left;}
+.right_nav { float: right;}
+
+li#this_page a{
+    color: #1a1a1a;
+    font-weight: 600;
+    border-bottom: rgb(0, 132, 255) solid 4px;    
+}
+
+.nav_tag a {
+    height: 52px;
+    text-decoration: none;
+    color: rgb(150 ,160, 180);
+    padding: 14px 0px;
+}
+
+.nav_tag a:hover { color:rgb(69,67,83);}
+
+/*内容区*/
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 15px;;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(61, 61, 61, 0.1);
+}
+
+.container h2{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.container label {
+    display: table;
+    margin: 13px 0 -13px 0;
+
+}
+
+.container input {
+    width: 550px;
+    color: #666666;
+    padding: 7px;
+    border: rgb(3, 46, 87) solid 1px;
+    border-radius: 2px;
+}
+
+input::placeholder{
+    color: #a7a7a7;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 2em;
+    vertical-align: middle;
+}
+
+.checkbox {
+    margin-top: 25px;
+}
+
+textarea {
+    height: 300px;
+    width: 550px;
+    color: #a7a7a7;
+    font-size: small;
+    border: rgb(3, 46, 87) solid 1px;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    width: fit-content;
+}
+
+
+
+
+/*botttom footer*/ 
+.bottom_footer {
+    background-color: white;
+    height: 40px;
+    padding: 10px;
+}
+
+.bottom_footer h6{
+    color: #666666;
+    font-size: 10pt;
+    width: fit-content;
+    margin: 10px auto;
+}
