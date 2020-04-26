@@ -6,7 +6,7 @@ LAB 4 设计文档
 
 ### 主页截图
 
-![sample](https://github.com/llffff/SOFT130002_lab/blob/master/lab4/images/prt_sc1.png)
+![sample](https://github.com/llffff/SOFT130002_lab/raw/master/lab4/images/prt_sc1.png)
 
 ### 布局介绍
 
@@ -61,5 +61,5 @@ ul的class属性包括：nav navbar-nav nav-pills navbar-right
 
 **示意图** 
 
-![sample](https://github.com/llffff/SOFT130002_lab/blob/master/lab4/images/prt_sc2.png)
+![sample](https://github.com/llffff/SOFT130002_lab/raw/master/lab4/images/prt_sc2.png)
 
