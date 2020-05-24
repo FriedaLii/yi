@@ -103,10 +103,15 @@ autoPlay();
 
 for (var i = 0; i < buttons.length; i++) {
   (function (count) {
+    //为每个button设置onclick事件处理
     buttons[count].onclick = function () {
+        //清除原本class为"on"的button
       for (var j = 0; j < buttons.length; j++) buttons[j].className = "";
       console.log(count + " " + i);
+      //设置新的button的class为"on"
       buttons[count].className = "on";
+
+      //改变index，展示图片
       index = count;
       showPic();
     };
@@ -124,12 +129,14 @@ for (var i = 0; i < buttons.length; i++) {
  */
 /********************************************begin************************************/
 
+//单击td，添加input元素
 $("table td").click(function () {
   var tdContent = $(this).text();
   var input = $("<input type='text' class='tdText' value='" + tdContent + "'>");
   $(this).html(input);
-  input.focus();
+  input.focus(); //获得焦点
 
+  //input失去焦点后，更新td中的值
   input.blur(function () {
     var tdContent = $(this).val();
     input.parent().html(tdContent);
